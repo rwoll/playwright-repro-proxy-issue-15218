@@ -14,3 +14,8 @@ In the other, run the tests:
 ```
 $ npx playwright test --repeat-each 10
 ```
+
+## Run Info
+
+- Node v16.14.0
+- macOS Monteray 12.4, M1 Machine
