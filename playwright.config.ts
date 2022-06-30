@@ -8,8 +8,8 @@ const config: PlaywrightTestConfig = {
     }
   },
   projects: [
-    { name: 'headless', use: { headless: true } },
-    { name: 'headfull', use: { headless: false } },
+    { name: 'headless', use: { headless: true, browserName: 'chromium', channel: 'chrome' } },
+    { name: 'headfull', use: { headless: false, browserName: 'chromium', channel: 'chrome' } },
   ]
 };
 
